@@ -1,8 +1,8 @@
-tdengine
-rabbitmq
-minio
-redis
-mysql
+tdengine/tdengine:3.3.3.0
+rabbitmq:3.12-management
+minio/minio:RELEASE.2024-05-23T18-04-07Z
+redis:7.2-alpine
+mysql:8.4
 nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
