@@ -1,4 +1,4 @@
-zlmediakit/zlmediakit
+zlmediakit/zlmediakit:master
 tdengine/tdengine:3.3.3.0
 rabbitmq:4.1.1-management
 minio/minio:RELEASE.2025-05-24T17-08-30Z
