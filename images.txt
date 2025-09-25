@@ -7,6 +7,7 @@ mysql:8.4.5
 nginx
 postgis/postgis:17-3.5
 python:3.9-bullseye
+docker.osgeo.org/geoserver:2.27.2
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
