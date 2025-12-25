@@ -14,3 +14,4 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 georchestra/geoserver:2.27.4-georchestra
+georchestra/geoserver:2.27.1-georchestra-01-geofence
