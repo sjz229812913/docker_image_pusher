@@ -1,0 +1,7 @@
+# 统一换行符：Windows 下编辑后提交也不会把 CRLF 带进仓库，
+# 避免 runner 上 bash 读到 \r 导致 "invalid reference format" 之类的问题
+* text=auto
+*.sh text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+images.txt text eol=lf

@@ -1,7 +1,10 @@
 zlmediakit/zlmediakit:master
 tdengine/tdengine:3.3.3.0
 rabbitmq:4.1.1-management
-#minio/minio:RELEASE.2025-05-24T17-08-30Z
+# minio/minio 已从 Docker Hub 整体下架（仓库返回 404），旧 tag 无法再拉取。
+# 需要新版本请改用 quay.io（最新 release：RELEASE.2025-10-15T17-29-55Z），先确认 tag 可拉再取消注释：
+# quay.io/minio/minio:RELEASE.2025-10-15T17-29-55Z
+# 阿里云里已有 4 月转存的 RELEASE.2025-05-24T17-08-30Z，继续用旧版就不必重新转存
 redis:7.4.4
 mysql:8.4.5
 nginx
